@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "deploy": "npm run build && npm run export"
-  },
+  "dev": "next dev --turbopack",
+  "build": "next build",
+  "start": "next start",
+  "deploy": "npm run build"
+},
   "dependencies": {
     "next": "15.5.2",
     "react": "^19.1.0",
