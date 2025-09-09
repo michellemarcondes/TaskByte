@@ -1,11 +1,19 @@
-function App() {
+import HeaderHero from './components/HeaderHero.jsx'
+import Features from './components/Features.jsx'
+import CaseStudy from './components/CaseStudy.jsx'
+import AboutTeam from './components/AboutTeam.jsx'
+import Footer from './components/Footer.jsx'
+
+export default function App(){
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-purple-200 to-pink-200">
-      <h1 className="text-4xl font-bold text-purple-800">🚀 TaskByte rodando no GitHub Pages!</h1>
-    </div>
+    <>
+      <HeaderHero />
+      <Features />
+      <CaseStudy />
+      <AboutTeam />
+      <Footer />
+    </>
   )
 }
-
-export default App
 
 
