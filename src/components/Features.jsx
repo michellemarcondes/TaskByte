@@ -22,7 +22,7 @@ export default function Features(){
           </a>
 
           <a className="feature" href="#escalabilidade">
-            <img className="feature__icon" src="/escalabilidade.png" alt="Escalabilidade" />
+            <img className="feature__icon" src={`${import.meta.env.BASE_URL}escalabilidade.png`} alt="Escalabilidade" />
             <div>
               <div className="h3">Maior</div>
               <div className="h4">Escalabilidade</div>
@@ -30,7 +30,7 @@ export default function Features(){
           </a>
 
           <a className="feature" href="#eficiencia">
-            <img className="feature__icon" src="/relogio.png" alt="Eficiência" />
+            <img className="feature__icon" src={`${import.meta.env.BASE_URL}relogio.png`} alt="Eficiência" />
             <div>
               <div className="h3">Mais</div>
               <div className="h4">Eficiência</div>
@@ -38,7 +38,7 @@ export default function Features(){
           </a>
 
           <a className="feature" href="#gestao">
-            <img className="feature__icon" src="/gestao.png" alt="Gestão" />
+            <img className="feature__icon" src={`${import.meta.env.BASE_URL}gestao.png`} alt="Gestão" />
             <div>
               <div className="h3">Melhor</div>
               <div className="h4">Gestão de seus dados</div>

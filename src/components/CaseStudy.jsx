@@ -6,7 +6,7 @@ export default function CaseStudy(){
       <div className="container two-col">
         <div>
           <div className="framed">
-            <img src="/carsburguer.png" alt="Case: Carl's Jr." style={{width:'100%',maxWidth:600}}/>
+            <img src={`${import.meta.env.BASE_URL}carsburguer.png`} alt="Case: Carl's Jr." style={{width:'100%',maxWidth:600}}/>
           </div>
         </div>
         <div className="text-max">

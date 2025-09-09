@@ -15,7 +15,7 @@ export default function AboutTeam(){
         </div>
         <div>
           <div className="framed framed--mirror">
-            <img src="/equipe.png" alt="Equipe TaskByte" style={{width:'100%',maxWidth:600}}/>
+            <img src={`${import.meta.env.BASE_URL}equipe.png`} alt="Equipe TaskByte" style={{width:'100%',maxWidth:600}}/>
           </div>
         </div>
       </div>

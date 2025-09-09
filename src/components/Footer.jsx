@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer(){
   return (
     <footer>
-      <div className="prefooter" style={{backgroundImage:`linear-gradient(0, transparent, transparent), url('/rodape.png')`}}>
+      <div className="prefooter" style={{backgroundImage:`url(${import.meta.env.BASE_URL}rodape.png)`}}>
         <div className="container prefooter__inner">
           <div className="prefooter__grid">
             <div>
@@ -37,14 +37,14 @@ export default function Footer(){
       <div className="footerbar">
         <div className="container footerbar__inner">
           <div className="footer__brand">
-            <img src="/logo.png" alt="TaskByte" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="TaskByte" />
             <div className="h5" style={{color:'var(--text-strong)'}}>TASKBYTE IT SOLUTIONS</div>
           </div>
           <p style={{fontSize:14,color:'var(--text-muted)'}}>© 2025 TASKBYTE IT SOLUTIONS. TODOS OS DIREITOS RESERVADOS.</p>
           <div className="socials">
-            <a href="#" aria-label="GitHub"><img src="/git.png" alt="GitHub"/></a>
-            <a href="#" aria-label="Instagram"><img src="/instagram.png" alt="Instagram"/></a>
-            <a href="#" aria-label="LinkedIn"><img src="/linkedin.png" alt="LinkedIn"/></a>
+            <a href="#" aria-label="GitHub"><img src={`${import.meta.env.BASE_URL}git.png`} alt="GitHub"/></a>
+            <a href="#" aria-label="Instagram"><img src={`${import.meta.env.BASE_URL}instagram.png`} alt="Instagram"/></a>
+            <a href="#" aria-label="LinkedIn"><img src={`${import.meta.env.BASE_URL}linkedin.png`} alt="LinkedIn"/></a>
           </div>
         </div>
       </div>
